@@ -1,7 +1,6 @@
 {
   "extends": [
-    "airbnb-base",
-    "prettier"
+    "airbnb-base"
   ],
   "globals": {
     "atom": true
