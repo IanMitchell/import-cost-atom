@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "airbnb-base",
+    "prettier"
+  ],
+  "globals": {
+    "atom": true
+  },
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "import/no-unresolved": [
+      2,
+      {
+        "ignore": [
+          "atom"
+        ]
+      }
+    ]
+  }
+}

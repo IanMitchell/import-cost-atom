@@ -1,0 +1,36 @@
+{
+  "name": "import-cost-atom",
+  "main": "./lib/import-cost-atom",
+  "version": "0.1.0",
+  "description": "A port of Wix's import-cost for Atom",
+  "keywords": [
+    "atom",
+    "import cost",
+    "javascript",
+    "modules"
+  ],
+  "repository": "https://github.com/ianmitchell/import-cost-atom",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "filesize": "^3.5.10",
+    "import-cost": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-config-prettier": "^2.3.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
