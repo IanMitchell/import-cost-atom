@@ -7,3 +7,7 @@ A (probably rough) port of [Wix's import-cost for Visual Studio Code](https://gi
 ## Known Issues
 
 Due to `import-cost` requiring a native module, when you first use the plugin you'll have to rebuild. Not sure how to get around that one, sorry!
+
+## Develop
+
+To load a local develop branch, clone the repository and link via symlink in `~/.atom/packages`.
