@@ -7,6 +7,11 @@
 .import-cost-atom {
   opacity: 0.4;
   display: flex;
+  pointer-events: none;
+
+  &.hidden {
+    display: none;
+  }
 
   &.loading {
     font-style: italic;
