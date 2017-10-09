@@ -1,3 +1,6 @@
+## 1.0.6 - Fix New File Runner
+* v1.0.5 broke new files being processed. Thanks to @Arcanemagus for spotting.
+
 ## 1.0.5 - Fix Line Removal Error
 * When deleting a line that had a cost drawn on it, the package would throw an error. Thanks to @Arcanemagus for the fix!
 
