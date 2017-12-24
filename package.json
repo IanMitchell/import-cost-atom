@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "filesize": "^3.5.10",
-    "import-cost": "^1.2.2"
+    "import-cost": "^1.3.0"
   },
   "devDependencies": {
     "eslint": "^4.5.0",
