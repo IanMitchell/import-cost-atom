@@ -1,7 +1,7 @@
 {
   "name": "import-cost-atom",
   "main": "./lib/import-cost-atom",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A port of Wix's import-cost for Atom",
   "keywords": [
     "atom",
